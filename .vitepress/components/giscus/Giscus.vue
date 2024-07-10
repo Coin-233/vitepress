@@ -6,10 +6,10 @@ import Giscus from '@giscus/vue'
   <div class="comments-container">
     <Giscus
       id="comments"
-      repo="KUN1007/soft.moe"
-      repoId="R_kgDOKOgQEA"
+      repo="Coin-233/vitepress"
+      repoId="R_kgDOMIXMWQ"
       category="General"
-      categoryId="DIC_kwDOKOgQEM4Cbjqa"
+      categoryId="DIC_kwDOMIXMWc4Cgr8g"
       mapping="pathname"
       term="Welcome to SOFT! MOE!"
       reactionsEnabled="1"
@@ -18,6 +18,7 @@ import Giscus from '@giscus/vue'
       theme="https://soft.moe/giscus/giscus.css"
       lang="en"
       loading="lazy"
+      crossorigin="anonymous"
     />
   </div>
 </template>

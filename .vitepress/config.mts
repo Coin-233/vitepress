@@ -1,10 +1,15 @@
 import { defineConfig } from 'vitepress'
 import { sidebarConfig } from './config/sidebar'
 import { socialLinksConfig } from './config/socialLinks'
-
+// import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "A VitePress Site",
+  // vite: {
+  //   plugins: [
+  //     AutoSidebar({path: '/articles'})
+  //   ]
+  // },
+  title: "What's this",
   description: "description",
   base: '/',
   srcDir: 'articles',
@@ -28,13 +33,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Animations', link: '/animations/kun-animations' },
-      {
-        text: 'KUNGalgame Doc',
-        link: '/kun-visualnovel-docs/kun-forum',
-      },
-      { text: 'Visual Novels', link: '/visualnovels/kun-visualnovels' },
-      { text: 'Technology', link: '/technology/kun-technology' },
+      { text: 'Minecraft', link: '/game/minecraft/' },
     ],
 
     sidebar: sidebarConfig,

@@ -8,8 +8,6 @@ const { x, y } = useMouse()
 
 <template>
   <div class="copyright">
-    <span>What's Kun's hobby? Of course, it's loafing around!</span>
-    <span>鲲的爱好是什么？鲲的爱好当然是摸鱼！</span>
     <span>Mouse position is at: {{ x }}, {{ y }}</span>
   </div>
 </template>
